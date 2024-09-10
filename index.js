@@ -10,7 +10,6 @@ const cors    = require('cors');
 const ejecutarExpress = express();
 
 
-
 /*----------------configuracion de datos--------------*/
 ejecutarExpress.use( cors() );
 ejecutarExpress.use( express.json() )
